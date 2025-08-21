@@ -16,5 +16,11 @@ public class TestClass {
 		 System.out.println("가보자구~~~~~");
 		
 	}
+	
+	public void hh() {
+		
+		System.out.println("흐흐 까먹어버림 ㅎㅎ;;");
+		
+	}
 
 }
