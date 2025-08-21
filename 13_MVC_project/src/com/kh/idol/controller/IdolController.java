@@ -216,14 +216,16 @@ public class IdolController {
 		return boards;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
+	public Board findByBoardNo(int boardNo) {
+		
+		// int randomPhoto = (int)(Math.random() * 3) + 1;
+		
+		if(boardNo > this.boardNo) {
+			return null;
+		}
+		
+		return boards.get(boardNo - 1);
+	}
 	
 	
 
